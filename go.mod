@@ -26,14 +26,14 @@ require (
 	go.etcd.io/etcd/api/v3 v3.5.4
 	go.etcd.io/etcd/client/v3 v3.5.4
 	go.mongodb.org/mongo-driver v1.10.0
-	go.opentelemetry.io/otel v1.8.0
+	go.opentelemetry.io/otel v1.11.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.8.0
-	go.opentelemetry.io/otel/exporters/zipkin v1.8.0
-	go.opentelemetry.io/otel/sdk v1.8.0
-	go.opentelemetry.io/otel/trace v1.8.0
+	go.opentelemetry.io/otel/exporters/zipkin v1.11.0
+	go.opentelemetry.io/otel/sdk v1.11.0
+	go.opentelemetry.io/otel/trace v1.11.0
 	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/goleak v1.1.12
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
+	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8
 	golang.org/x/time v0.0.0-20220411224347-583f2d630306
 	google.golang.org/grpc v1.48.0
 	google.golang.org/protobuf v1.28.0
@@ -54,6 +54,6 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
 	golang.org/x/net v0.0.0-20220531201128-c960675eff93 // indirect
-	google.golang.org/genproto v0.0.0-20220602131408-e326c6e8e9c8 // indirect
+	google.golang.org/genproto v0.0.0-20220602131408-e326c6e8e9c8
 	k8s.io/klog/v2 v2.40.1 // indirect
 )
